@@ -55,6 +55,22 @@
 }
 
 
+/*.acco-photo {
+  height: 150px;
+}*/
+
+
+
+.acco-photo:hover {
+  cursor: pointer;
+}
+
+.hotel-pic {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /*
  * Extra utilities
  */
