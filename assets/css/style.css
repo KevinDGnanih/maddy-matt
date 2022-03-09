@@ -71,6 +71,21 @@
   height: auto;
 }
 
+.header-pic {
+  background-image:url(/assets/images/form.jpeg);
+  background-repeat:  no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#header-top {
+  color: white;
+}
+
+.order-day {
+  
+}
+
 /*
  * Extra utilities
  */
