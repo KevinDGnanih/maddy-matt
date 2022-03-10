@@ -5,12 +5,10 @@
 /*
  * Custom translucent site header
  */
-
-.site-header {
-  background-color: rgba(0, 0, 0, .85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
+ .site-header {
+  background-color: white;
 }
+
 .site-header a {
   color: #8e8e8e;
   transition: color .15s ease-in-out;
@@ -20,9 +18,40 @@
   text-decoration: none;
 }
 
+.header-pic {
+  background-image:url(/assets/images/beach.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#logo {
+  height: 140px;
+ 
+ }
+
+ nav a {
+  float: none;
+  left: 40%;
+  position: relative;
+}
+
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+
+ /* Colors */
+ 
+
+#header-top {
+  color: white;
+}
+
+.bg-back {
+  background-color: bisque;
+}
+
+
 
 .product-device {
   position: absolute;
@@ -54,13 +83,6 @@
   background-color: #e5e5e5;
 }
 
-
-/*.acco-photo {
-  height: 150px;
-}*/
-
-
-
 .acco-photo:hover {
   cursor: pointer;
 }
@@ -71,20 +93,20 @@
   height: auto;
 }
 
-.header-pic {
-  background-image:url(/assets/images/form.jpeg);
-  background-repeat:  no-repeat;
-  background-size: cover;
-  background-position: center;
+
+
+
+/* Taxi part */ 
+
+
+.taxi {
+  height: 500px;
 }
 
-#header-top {
-  color: white;
-}
 
-.order-day {
-  
-}
+
+
+
 
 /*
  * Extra utilities
@@ -93,8 +115,15 @@
 .flex-equal > * {
   flex: 1;
 }
+
+
+
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
   }
+
+  /*.m-md-3 {
+    margin: 0px!important;
+  }*/
 }
