@@ -32,7 +32,7 @@
 
  nav a {
   float: none;
-  left: 40%;
+  left: 42%;
   position: relative;
 }
 
@@ -101,6 +101,10 @@
 
 .taxi {
   height: 500px;
+}
+
+.taxi-board {
+  
 }
 
 
