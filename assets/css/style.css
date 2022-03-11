@@ -131,7 +131,11 @@
   margin-left: 35px;
   line-height: 20pt;
 }
+/* Form section */ 
 
+textarea {
+  resize: none;
+}
 
 
 /*
