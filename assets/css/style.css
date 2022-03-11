@@ -48,7 +48,7 @@
 }
 
 .bg-back {
-  background-color: bisque;
+  background-color:#f8e9cc;
 }
 
 
@@ -108,7 +108,29 @@
 }
 
 
+/* Order of day section */
 
+#order-day h3 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#order-day p {
+  margin-top: 80px;
+  margin-left: 35px;
+  line-height: 20pt;
+}
+
+#day-after h3 {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#day-after p {
+  margin-top: 120px;
+  margin-left: 35px;
+  line-height: 20pt;
+}
 
 
 
