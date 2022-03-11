@@ -19,7 +19,7 @@
 }
 
 .header-pic {
-  background-image:url(/assets/images/beach.jpeg);
+  background-image:url(assets/images/beach.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
