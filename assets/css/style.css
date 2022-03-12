@@ -51,6 +51,10 @@
   background-color:#f8e9cc;
 }
 
+#day-after {
+  background-color: black;
+}
+
 
 
 .product-device {
@@ -113,23 +117,27 @@
 #order-day h3 {
   text-align: center;
   margin-top: 25px;
+  
 }
 
 #order-day p {
   margin-top: 80px;
-  margin-left: 35px;
-  line-height: 20pt;
+  margin-left: 13rem;
+  line-height: 35pt;
+  
 }
 
 #day-after h3 {
   text-align: center;
   margin-top: 25px;
+  color: white;
 }
 
 #day-after p {
   margin-top: 120px;
   margin-left: 35px;
   line-height: 20pt;
+  color: white;
 }
 /* Form section */ 
 
