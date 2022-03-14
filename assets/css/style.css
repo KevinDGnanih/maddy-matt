@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Cormorant:wght@300;400;500;600&family=Roboto:wght@100;300&family=Tajawal:wght@300&display=swap');
 
 .container {
   max-width: 960px;
@@ -111,7 +111,21 @@
   height: auto;
 }
 
+/* Font */ 
+h1 {
+  font-family: 'Cormorant', serif;
+  font-style: italic;
+}
 
+h2 {
+  font-family: 'Cormorant', serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Tajawal', sans-serif;
+}
 
 
 /* Taxi part */ 
@@ -145,6 +159,7 @@
   text-align: center;
   margin-top: 25px;
   color: white;
+  font-family: 'Cormorant', serif;
 }
 
 #day-after p {
