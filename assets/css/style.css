@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&family=Roboto:wght@300&display=swap');
+
 .container {
   max-width: 960px;
 }
@@ -51,6 +53,10 @@
   background-color:#f8e9cc;
 }
 
+.grey {
+  color: #666565;
+}
+
 #day-after {
   background-color: black;
 }
@@ -60,6 +66,10 @@
 .centered {
   text-align: center;
 }
+
+/* LOGOS */
+
+
 
 .product-device {
   position: absolute;
@@ -121,7 +131,7 @@
 #order-day h3 {
   text-align: center;
   margin-top: 25px;
-  
+  font-family: 'Cormorant', serif;
 }
 
 #order-day p {
