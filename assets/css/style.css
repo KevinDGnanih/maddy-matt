@@ -55,7 +55,11 @@
   background-color: black;
 }
 
+/* Text centered */
 
+.centered {
+  text-align: center;
+}
 
 .product-device {
   position: absolute;
