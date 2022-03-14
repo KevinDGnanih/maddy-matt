@@ -57,6 +57,13 @@
   color: #666565;
 }
 
+.black {
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
 #day-after {
   background-color: black;
 }
@@ -135,7 +142,14 @@ p {
   height: 500px;
 }
 
-.taxi-board {
+
+/* Google Map */
+
+.map-responsive {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
   
 }
 
