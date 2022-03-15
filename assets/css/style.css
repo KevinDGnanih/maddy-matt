@@ -130,6 +130,11 @@ h2 {
   font-style: italic;
 }
 
+h3 {
+  font-family: 'Cormorant', serif;
+  font-weight: 600;
+}
+
 p {
   font-family: 'Tajawal', sans-serif;
 }
