@@ -34,6 +34,12 @@
 
   <!-- Custom styles for this template -->
   <link href="product.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+  (function() {
+  emailjs.init("Zwi4NAAEeFcFsUpET");
+  })();
+  </script>
 </head>
 
 <body>
@@ -235,7 +241,8 @@
                 <div class="card-body ">
                   <div class="card-title">
                     <h2 class="centered"><i class="fas fa-taxi centered grey"></i> Taxi</h2>
-                    <p class="centered">The venue is in a remote location, therefore we strongly suggest you pre-book a taxi to take you
+                    <p class="centered">The venue is in a remote location, therefore we strongly suggest you pre-book a
+                      taxi to take you
                       to your chosen accommodation. Below are some recommended companies in the area:</p>
                     <div class="card-text">
                       <p><strong>A&E CARS *HIGHLY RECOMMENDED*</strong> info@elitecarsguildford.co.uk I 01483 905050 /
@@ -350,7 +357,8 @@
 
               <div class="form-group">
                 <label for="emailaddress">Email:*</label>
-                <input type="email" placeholder="Your Email" class="form-control" name="emailaddress" id="email" required>
+                <input type="email" placeholder="Your Email" class="form-control" name="emailaddress" id="email"
+                  required>
               </div>
 
               <div class="form-group">
@@ -362,6 +370,10 @@
               <div id="cf-submit">
                 <input class="btn btn-sm btn-outline-dark" type="submit" id="contact-submit" class="btn btn-transparent"
                   value="Submit">
+              </div>
+
+              <div id="reply">
+
               </div>
 
             </form>
@@ -394,6 +406,7 @@
   <script src="https://kit.fontawesome.com/bb09779c85.js" crossorigin="anonymous"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?
   key=AIzaSyBQRUcrnicuaQe0yCwy-0C4eoGTF1Etfo0&callback=initMap"></script>
+  <script src="assets/js/sendMail.js"></script>
 
 </body>
 
