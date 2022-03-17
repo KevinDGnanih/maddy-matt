@@ -36,19 +36,19 @@
   <link href="product.css" rel="stylesheet">
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script type="text/javascript">
-  (function() {
-  emailjs.init("Zwi4NAAEeFcFsUpET");
-  })();
+    (function () {
+      emailjs.init("Zwi4NAAEeFcFsUpET");
+    })();
   </script>
 </head>
 
 <body>
 
-  <header class="site-header sticky-top py-1">
+  <header class="site-header sticky-top py-1 m-0 p-0">
 
     <nav class="container d-flex flex-column flex-md-row justify-content-between">
       <!--<img id="logo"src="/assets/images/mm.png" alt="">-->
-      <a href="#"><img id="logo" src="assets/images/mm.jpg" alt=""></a>
+      <a class="mb-auto" href="#"><img id="logo" src="assets/images/mm.jpg" alt=""></a>
       <!--<a class="py-2 d-none d-md-inline-block" href="#">Tour</a>-->
 
     </nav>
@@ -284,11 +284,11 @@
     <!-----------Order of the day section---------->
     <div id="order-day" class="col-12">
       <div class="bg-back row g-0 border rounded overflow-hidden flex-md-row shadow-sm h-md-250 position-relative">
-        <div class="col-6 p-4 d-flex flex-column position-static">
+        <div class="col-6  d-flex flex-column position-static">
 
-          <h3 class="mb-0">Order of the Day</h3>
+          <h3 class="">Order of the Day</h3>
 
-          <p class="card-text mb-auto"><strong>12pm:</strong> Doors open and pre-ceremony bar open
+          <p class="card-text align-flex mx-auto"><strong>12pm:</strong> Doors open and pre-ceremony bar open
             <br>
             <strong>12:45pm:</strong> Take seats in Barn for ceremony
             <br>
@@ -304,14 +304,14 @@
             <br>
             <strong>Midnight:</strong> Carriages</p>
         </div>
-        <div class="col-6 d-none d-lg-block">
-          <img src="assets/images/main.jpeg" width="100%" alt="">
+        <div class="col-6  d-lg-block">
+          <img class="flex-grow"src="assets/images/main.jpeg" width="100%" alt="">
         </div>
       </div>
     </div>
     <div class="col-12">
       <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col-6 d-none d-lg-block">
+        <div class="col-6 d-lg-block">
           <img src="assets/images/beach-two.jpeg" width="100%" alt="">
 
         </div>
@@ -320,7 +320,11 @@
           <h3 class="mb-0">Day After</h3>
 
           <p class="card-text mb-auto">We will be having a ‘day after’ lunch at The Abinger Hatch pub, Abinger Common,
-            Dorking RH5 6HZ. Please let us know if you will be joining us!
+            Dorking RH5 6HZ. Please let us know if you will be joining us!</p>
+
+          <button class="btn btn btn-outline-light">See More</button>
+
+
         </div>
       </div>
     </div>

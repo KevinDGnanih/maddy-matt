@@ -7,7 +7,7 @@
 /*
  * Custom translucent site header
  */
- .site-header {
+.site-header {
   background-color: white;
 }
 
@@ -15,13 +15,14 @@
   color: #8e8e8e;
   transition: color .15s ease-in-out;
 }
+
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
 }
 
 .header-pic {
-  background-image:url(../images/beach.jpeg);
+  background-image: url(../images/beach.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -29,10 +30,10 @@
 
 #logo {
   height: 140px;
- 
- }
 
- nav a {
+}
+
+nav a {
   float: none;
   left: 42%;
   position: relative;
@@ -42,15 +43,15 @@
  * Dummy devices (replace them with your own or something else entirely!)
  */
 
- /* Colors */
- 
+/* Colors */
+
 
 #header-top {
   color: white;
 }
 
 .bg-back {
-  background-color:#f8e9cc;
+  background-color: #f8e9cc;
 }
 
 .grey {
@@ -64,6 +65,7 @@
 .white {
   background-color: white;
 }
+
 #day-after {
   background-color: black;
 }
@@ -118,7 +120,7 @@
   height: auto;
 }
 
-/* Font */ 
+/* Font */
 h1 {
   font-family: 'Cormorant', serif;
   font-style: italic;
@@ -140,7 +142,7 @@ p {
 }
 
 
-/* Taxi part */ 
+/* Taxi part */
 
 
 .taxi {
@@ -155,7 +157,7 @@ p {
   top: 0;
   height: 100%;
   width: 100%;
-  
+
 }
 
 
@@ -168,10 +170,10 @@ p {
 }
 
 #order-day p {
-  margin-top: 80px;
-  margin-left: 13rem;
+  /*margin-top: 80px;
+  margin-left: 13rem;*/
   line-height: 35pt;
-  
+
 }
 
 #day-after h3 {
@@ -187,7 +189,8 @@ p {
   line-height: 20pt;
   color: white;
 }
-/* Form section */ 
+
+/* Form section */
 
 textarea {
   resize: none;
@@ -198,14 +201,14 @@ textarea {
  * Extra utilities
  */
 
-.flex-equal > * {
+.flex-equal>* {
   flex: 1;
 }
 
 
 
 @media (min-width: 768px) {
-  .flex-md-equal > * {
+  .flex-md-equal>* {
     flex: 1;
   }
 
