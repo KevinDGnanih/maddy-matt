@@ -49,8 +49,7 @@
   </header>
 
   <main>
-    <div id="header-top"
-      class="no-gutters header-pic position-relative overflow-hidden p-3  text-center bg-light">
+    <div id="header-top" class="no-gutters header-pic position-relative overflow-hidden p-3  text-center bg-light">
       <div class=" col-md-5 p-lg-5 mx-auto my-5">
         <h1 class="display-4 fw-normal">MADELEINE & MATT</h1>
         <p class="lead fw-normal">Saturday 6th August 2022 <br> Gate Street Barn, Surrey, UK</p>
@@ -336,7 +335,7 @@
             you
             would like to. We will be in touch nearer the time to confirm numbers.</p>
 
-            <a href="https://theabingerhatch.co.uk/" target="_blank" class="btn btn btn-outline-light">See More</a>
+          <a href="https://theabingerhatch.co.uk/" target="_blank" class="btn btn btn-outline-light">See More</a>
 
 
         </div>
@@ -387,13 +386,11 @@
               </div>
 
               <div id="cf-submit">
-                <input class="btn btn-sm btn-outline-dark" type="submit" id="contact-submit" class="btn btn-transparent"
+                <input type="submit" id="contact-submit liveAlertBtn" class="btn btn-transparent btn-sm btn-outline-dark"
                   value="Submit">
               </div>
 
-              <div id="reply">
-
-              </div>
+              <div id="liveAlertPlaceholder"></div>
 
             </form>
           </div>
@@ -426,6 +423,24 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?
   key=AIzaSyBQRUcrnicuaQe0yCwy-0C4eoGTF1Etfo0&callback=initMap"></script>
   <script src="assets/js/sendMail.js"></script>
+  <script>
+    var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+    var alertTrigger = document.getElementById('liveAlertBtn')
+
+    function alert(message, type) {
+      var wrapper = document.createElement('div')
+      wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message +
+        '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+      alertPlaceholder.append(wrapper)
+    }
+
+    if (alertTrigger) {
+      alertTrigger.addEventListener('click', function () {
+        alert('Thank You!')
+      })
+    }
+  </script>
 
 </body>
 
