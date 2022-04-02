@@ -386,11 +386,9 @@
               </div>
 
               <div id="cf-submit">
-                <input type="submit" id="contact-submit liveAlertBtn" class="btn btn-transparent btn-sm btn-outline-dark"
-                  value="Submit">
+                <input type="submit" id="contact-submit liveAlertBtn"
+                  class="btn btn-transparent btn-sm btn-outline-dark" value="Submit">
               </div>
-
-              <div id="liveAlertPlaceholder"></div>
 
             </form>
           </div>
@@ -423,24 +421,7 @@
   <script async defer src="https://maps.googleapis.com/maps/api/js?
   key=AIzaSyBQRUcrnicuaQe0yCwy-0C4eoGTF1Etfo0&callback=initMap"></script>
   <script src="assets/js/sendMail.js"></script>
-  <script>
-    var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
-    var alertTrigger = document.getElementById('liveAlertBtn')
 
-    function alert(message, type) {
-      var wrapper = document.createElement('div')
-      wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message +
-        '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
-
-      alertPlaceholder.append(wrapper)
-    }
-
-    if (alertTrigger) {
-      alertTrigger.addEventListener('click', function () {
-        alert('Thank You!')
-      })
-    }
-  </script>
 
 </body>
 
